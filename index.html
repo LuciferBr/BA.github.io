@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include custom CSS -->
+    <style>
+        /* Your custom CSS styles here */ 
+    </style>
+</head>
+<body>
+    <div id="root"></div> <!-- This is where React will render the components -->
+    <!-- Include React and ReactDOM libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <!-- Your React component code -->
+    <script type="text/babel">
+        // Define your React component
+        function App() {
+            return (
+                <div>
+                    <header>
+                        <h1>Fitness Tracker</h1>
+                    </header>
+                    <main>
+                        <p>Welcome to the Fitness Tracker app!</p>
+                    </main>
+                    <footer>
+                        <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+                    </footer>
+                </div>
+            );
+        }
+
+        // Render the App component into the root element
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
